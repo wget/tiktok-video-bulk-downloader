@@ -3,8 +3,8 @@
 # shellcheck disable=SC1091
 . "${0%/*}/shut/utils.sh"
 
-# Specifying the username agent or additional query strings items is not
-# mandatory, but useful to be under the radar
+# Specifying the user agent or additional query strings items is not mandatory,
+# but useful to be under the radar
 API_URL="https://api19-core-useast5.us.tiktokv.com/aweme/v1/feed/?aweme_id=[VIDEO_ID]&version_code=262&app_name=musical_ly&channel=App&device_id=null&os_version=14.4.2&device_platform=iphone&device_type=iPhone9"
 USER_AGENT='TikTok 26.2.0 rv:262018 (iPhone; iOS 14.4.2; en_US) Cronet'
 
